@@ -15,7 +15,7 @@ var full_icon_cache: Dictionary = {}
 
 # Build the TextureRect
 func _ready() -> void:
-	sprite.texture = NDSCompanion.fetch_full_pokemon_icon(MEW_POKEDEX_ID)
+	sprite.texture = fetch_full_pokemon_icon(MEW_POKEDEX_ID)
 
 # Fetch and cache a full Pokémon icon with support for back, female, and shiny variations
 func fetch_full_pokemon_icon(id: int, back: bool = false, female: bool = false, shiny: bool = false) -> Texture:
