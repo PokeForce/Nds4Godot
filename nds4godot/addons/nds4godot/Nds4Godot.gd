@@ -1,12 +1,10 @@
 @tool
 extends EditorPlugin
 
+const NDS_COMPANION = "NDSCompanion"
 
-func _enter_tree() -> void:
-	# Initialization of the plugin goes here.
-	pass
+func _enable_plugin() -> void:
+	add_autoload_singleton(NDS_COMPANION, "res://addons/nds4godot/scripts/NdsCompanion.gd")
 
-
-func _exit_tree() -> void:
-	# Clean-up of the plugin goes here.
-	pass
+func _disable_plugin() -> void:
+	remove_autoload_singleton(NDS_COMPANION)
