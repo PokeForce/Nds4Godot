@@ -31,15 +31,17 @@ This is used for the `_ready()` function, where the `sprite` `TextureRect` is gi
 ```gdscript
 # Build the TextureRect
 func _ready() -> void:
-	sprite.texture = NDSCompanion.fetch_full_pokemon_icon(MEW_POKEDEX_ID)
+	sprite.texture = fetch_full_pokemon_icon(MEW_POKEDEX_ID)
 ```
 
 Once you've specified the Pokemon of your choice, simply run the `Example.tscn` scene, and view the sprite!
 
 # Credits
-Full credits are given to [turtleisaac](https://github.com/turtleisaac) for the original [Nds4j](https://github.com/turtleisaac/Nds4j) code. 
+
+Full credits are given to [turtleisaac](https://github.com/turtleisaac) for the original [Nds4j](https://github.com/turtleisaac/Nds4j) code.
 
 # FAQ
-* Nds4Godot has been primarily modified for [PokeForce](https://pokeforce), and is missing a lot of core functionality of the original project. 
-* We currently do not plan to offer support beyond what the initial plugin offers. 
-* This plugin was built and tested with [Godot](https://github.com/godotengine/godot) 4.4-beta1
+
+- Nds4Godot has been primarily modified for [PokeForce](https://pokeforce), and is missing a lot of core functionality of the original project.
+- We currently do not plan to offer support beyond what the initial plugin offers.
+- This plugin was built and tested with [Godot](https://github.com/godotengine/godot) 4.4-beta1
