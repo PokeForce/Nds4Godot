@@ -42,6 +42,6 @@ Full credits are given to [turtleisaac](https://github.com/turtleisaac) for the 
 
 # FAQ
 
-- Nds4Godot has been primarily modified for [PokeForce](https://pokeforce), and is missing a lot of core functionality of the original project.
+- Nds4Godot has been primarily modified for [PokeForce](https://pokeforce.org), and is missing a lot of core functionality of the original project.
 - We currently do not plan to offer support beyond what the initial plugin offers.
 - This plugin was built and tested with [Godot](https://github.com/godotengine/godot) 4.4-beta1
